@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="html" href="forgot.html">
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="profile_icon.jpg" type="image/jpg">
+    <script src="login.js" defer></script>
+  </head>
+
+  <body>
+    <center>
+        <h3 id="sign-in">Sign in</h3><br>
+        <input id="uname" type="text" placeholder="Enter UserName"><br>
+        <input id="pword" type="password" placeholder="Enter Password"><br>
+        <p id="forgot-pword"><a id="forgot-link" href="forgot.html" target="_blank">Forgot Your Password?</a></p><br>
+        <button id="reset" type="reset" onclick="resetDetails()">Reset</button><br>
+        <button id="login" onclick="checkLogin()" >LogIn</button><br>
+        <hr class="line">
+        <h4 id="other">Other Login Options</h4>
+        <table id="table1">
+          <tr class="row">
+            <td><img id="google" class="google-logo" src="Google_Logo.png" alt="Google Logo"></td>
+            <td><a id="google" class="google-link" href="https://www.google.com/?hl=en" target="_blank">Sign in with Google</a></td>
+          </tr>
+        </table>
+        <table id="table2">
+          <tr class="row">
+            <td><img id="linkedin" class="linkedin-logo" src="linkedin_logo.png" alt="LinkedIn Logo"></td>
+            <td><a id="linkedin" class="linkedin-link" href="https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin" target="_blank">Sign in with LinkedIn</a></td>
+          </tr>
+        </table>
+        <hr class="line">
+        <footer id="foot">&copy My_First_Page_2025</footer>
+      </center>
+  </body>
+</html>
